@@ -6,8 +6,8 @@ version := "1.0.1"
 
 organization := "edu.utdallas.hltri"
 
-// enable publishing to maven
-publishMavenStyle := true
+// sbt-sonatype
+publishTo := sonatypePublishTo.value
 
 // do not append scala version to the generated artifacts
 crossPaths := false
